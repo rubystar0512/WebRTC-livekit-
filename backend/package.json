@@ -1,0 +1,19 @@
+{
+  "name": "meeting-mvp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "lazar",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "livekit-server-sdk": "^2.10.1",
+    "mongoose": "^8.10.0",
+    "path": "^0.12.7"
+  }
+}
