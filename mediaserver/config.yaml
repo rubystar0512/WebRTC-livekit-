@@ -1,0 +1,16 @@
+port: 7880
+rtc:
+  tcp_port: 7881
+  port_range_start: 50000
+  port_range_end: 60000
+  use_external_ip: false  # Changed to false for local development
+
+keys:
+  APIKey1: "devkey"
+  APISecret1: "secret123"
+
+# Development settings
+development: true
+logging:
+  json: false
+  level: info

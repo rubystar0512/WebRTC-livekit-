@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.6.1",
+    "@livekit/components-react": "^2.8.1",
+    "@livekit/components-styles": "^1.1.4",
+    "antd": "^5.24.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0",
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
